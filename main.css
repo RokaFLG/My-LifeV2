@@ -38,6 +38,7 @@ button:hover{
 
 header{
     background-color: rgb(245,245,245);
+    z-index: 10;
 }
 
 header .logo{
@@ -247,7 +248,7 @@ footer .container{
         background-image:url("media/misiones-cortada.jpeg") ;
     }
     #logros{
-        background-image: url("media/logros.jpg");
+
         background-repeat: no-repeat;
         background-size: 300px 200px;
         background-position: calc(100vh - 100px) 120px;
