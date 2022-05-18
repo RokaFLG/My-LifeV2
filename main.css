@@ -94,9 +94,10 @@ header a:hover{
 }
 
 #sobre-mi{
-    background-color: black;
-    color: white;
+    background-color: rgba(0,0,0,0);
+    color: black;
     text-align: center;
+    
 }
 
 #sobre-mi .container {
