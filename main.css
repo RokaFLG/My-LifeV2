@@ -167,6 +167,25 @@ footer .container{
  justify-content:center ;
  align-items: flex-end;
 }
+#sobre-mi .cartas-2{
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.cartas-2:first-child{
+    background-image:url("media/jugando-al-futbol.jpeg") ;
+    
+}
+
+.cartas-2:nth-child(2){
+    background-image:url("media/con-mis-amigos.jpeg");
+}
+
+.cartas-2:nth-child(3){
+    background-image:url("media/debate-en-clase.jpeg") ;
+}
 @media(min-width:720px){
     header{
         position: fixed;
@@ -259,7 +278,33 @@ footer .container{
     #logros ul{
         margin-left: 100px;
     }
-
+    #sobre-mi .cartas-2{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50,50,50,0.5);
+        box-shadow: 2px 2px 10px rgba(50,50,50,0.5);
+    }
+    .cartas-2:first-child{
+        background-image:url("media/jugando-al-futbol.jpeg") ;
+        
+    }
+    
+    .cartas-2:nth-child(2){
+        background-image:url("media/con-mis-amigos.jpeg");
+    }
+    
+    .cartas-2:nth-child(3){
+        background-image:url("media/debate-en-clase.jpeg") ;
+    }
+    #este-soy-yo .img-container-2{
+        background-image: url("media/gustos.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
 }
 @media (min-width:1200px) {
     #logros{
