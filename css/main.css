@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box; }
+  
+  html {
+    scroll-behavior: smooth; }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0; }
+  
+  h1 {
+    font-size: 3.5em; }
+  
+  h2 {
+    font-size: 2.7em; }
+  
+  h3 {
+    font-size: 2em; }
+  
+  p {
+    font-size: 1.25em; }
+  
+  ul {
+    list-style: none; }
+  
+  button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: darkslategrey; }
+  
+  button:hover {
+    background-color: #449999; }
+  
+  .color-acento {
+    color: darkslategray; }
+  
+  .container {
+    max-width: 1080 px;
+    margin: auto; }
+  
+  header {
+    background-color: whitesmoke;
+    z-index: 10; }
+    header .logo {
+      margin: 0;
+      padding: 25px 30px;
+      font-weight: bold;
+      color: darkslategray;
+      font-size: 1.6em; }
+    header .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    header nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 25px; }
+    header a {
+      padding: 5px 12px;
+      text-decoration: none;
+      font-weight: bold;
+      color: black; }
+  
+  header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black; }
+  
+  header a:hover {
+    color: #449999; }
+  
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 200vh;
+    background-image: url("/media/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+  
+  #hero h1 {
+    color: black; }
+  
+  #este-soy-yo .container {
+    text-align: center;
+    padding: 200px 12px; }
+  
+  #sobre-mi {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    text-align: center; }
+  
+  #sobre-mi .container {
+    padding: 400px 12px; }
+  
+  #sobre-mi h2 {
+    margin-top: 0;
+    font-size: 3.2em; }
+  
+  #sobre-mi p {
+    display: none; }
+  
+  #sobre-mi .cartas {
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    margin: 30px;
+    border-radius: 15px; }
+  
+  .cartas:first-child {
+    background-image: url("/media/mi-escuela.jpg"); }
+  
+  .cartas:nth-child(2) {
+    background-image: url("/media/futbol.jpeg"); }
+  
+  .cartas:nth-child(3) {
+    background-image: url("/media/misiones.jpg"); }
+  
+  #logros .container {
+    text-align: center;
+    padding: 140px 12px; }
+  
+  #logros li {
+    margin: 12px 0;
+    font-weight: bold; }
+  
+  #gracias-por-ver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    height: 80vh; }
+  
+  #gracias-por-ver h2 {
+    font-size: 9vw; }
+  
+  footer {
+    background-color: #e6e6e6; }
+  
+  footer p {
+    margin: 0;
+    padding: 12px;
+    color: #646464; }
+  
+  footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+  
+  #sobre-mi .cartas-2 {
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    margin: 30px;
+    border-radius: 15px; }
+  
+  .cartas-2:first-child {
+    background-image: url("media/jugando-al-futbol.jpeg"); }
+  
+  .cartas-2:nth-child(2) {
+    background-image: url("media/con-mis-amigos.jpeg"); }
+  
+  .cartas-2:nth-child(3) {
+    background-image: url("media/debate-en-clase.jpeg"); }
+  
+  @media (min-width: 720px) {
+    header {
+      position: fixed;
+      width: 100%; }
+    header .container {
+      flex-direction: row;
+      justify-content: space-between; }
+    header nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 12px; }
+    #hero h1 {
+      font-size: 5em; }
+    #este-soy-yo .container {
+      display: flex;
+      justify-content: space-evenly; }
+    #este-soy-yo .texto {
+      width: 50%;
+      max-width: 600px;
+      text-align: initial;
+      padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    #este-soy-yo h2 {
+      margin-top: 0px; }
+    #este-soy-yo .img-container {
+      background-image: url("/media/yo.jpeg");
+      background-size: cover;
+      background-position: center center;
+      height: 500px;
+      width: 400px; }
+    #sobre-mi .sobremi {
+      display: flex;
+      justify-content: center; }
+    #sobre-mi p {
+      display: block;
+      margin-bottom: 30px; }
+    #sobre-mi h3 {
+      margin-top: 0; }
+    #sobre-mi .cartas {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: rgba(50, 50, 50, 0.5);
+      box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); }
+    .cartas:first-child {
+      background-image: url("/media/mi-escuela-cortada.jpeg"); }
+    .cartas:nth-child(2) {
+      background-image: url("/media/futbol-cortada.jpeg"); }
+    .cartas:nth-child(3) {
+      background-image: url("/media/misiones-cortada.jpeg"); }
+    #logros {
+      background-repeat: no-repeat;
+      background-size: 300px 200px;
+      background-position: calc(100vh - 100px) 120px; }
+    #logros .container {
+      text-align: initial; }
+    #logros ul {
+      margin-left: 100px; }
+    #sobre-mi .cartas-2 {
+      padding: 50px;
+      background-size: 100% 150px;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: rgba(50, 50, 50, 0.5);
+      box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); }
+    .cartas-2:first-child {
+      background-image: url("/media/jugando-al-futbol.jpeg"); }
+    .cartas-2:nth-child(2) {
+      background-image: url("/media/con-mis-amigos.jpeg"); }
+    .cartas-2:nth-child(3) {
+      background-image: url("/media/debate-en-clase.jpeg"); }
+    #este-soy-yo .img-container-2 {
+      background-image: url("/media/gustos.png");
+      background-size: cover;
+      background-position: center center;
+      height: 500px;
+      width: 400px; } }
+  
+  @media (min-width: 1200px) {
+    #logros {
+      background-position-x: calc(100vw - 800px); } }
