@@ -1,0 +1,8 @@
+Index:Agregue keywords explicando mi pagina ej: index, scss, css, responsive,etc
+agregue lo que viene siendo las description y el favicon, Cambien tambien
+el titulo agregando un orden para que no se pierdan al verlo.
+
+
+Pages.HTML:Agregue las keywords ya mencionadas anteriormente,tambien algunos
+descriptiony obviamente el FavIcon, cambie los titulos de cada una de las pages,
+para agregar un poco de orden a la hora de ver mi pagina.
