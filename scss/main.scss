@@ -72,7 +72,7 @@
 }
    
   
-  
+  // Extend
   #hero {
     display: flex;
     align-items: center;
@@ -85,6 +85,7 @@
     background-size: cover;
     background-position: center center; 
     h1 {
+      @extend #hero;
         color: black; }
       
 }
@@ -326,3 +327,24 @@
   @media (min-width: 1200px) {
     #logros {
       background-position-x: calc(100vw - 800px); } }
+  // Mapas
+  $redes: (
+    twitter: #0084FF,
+    facebook: #0c3153,
+    instagram: #aa208c,
+  );
+
+  @each $red, $color in $redes{
+    .red-#{$red} {
+      color: $color;
+    }
+  }
+  //Mixins
+  @mixin size ($alto, $ancho, $espaciado){
+    height: $alto;
+    width: $ancho;
+    margin: $espaciado;
+  }
+#este-soy-yo .img-container-3{
+  @include size(500px,400px)
+}
