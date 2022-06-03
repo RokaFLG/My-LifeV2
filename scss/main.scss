@@ -3,11 +3,11 @@
   
   html {
     scroll-behavior: smooth; }
-  
+  //Cambiando la tipografia
   body {
     font-family: "Roboto", sans-serif;
     margin: 0; }
-  
+  //Titulos
   h1 {
     font-size: 3.5em; }
   
@@ -16,13 +16,13 @@
   
   h3 {
     font-size: 2em; }
-  
+  //Parrafos
   p {
     font-size: 1.25em; }
-  
+  //Links
   ul {
     list-style: none; }
-  
+  //Botones
   button {
     font-size: 1.5em;
     font-weight: bold;
@@ -41,7 +41,7 @@
   .container {
     max-width: 1080 px;
     margin: auto; }
-  
+  //Inicio
   header {
     background-color: whitesmoke;
     z-index: 10; 
@@ -89,6 +89,7 @@
         color: black; }
       
 }
+//Breve Descripcion de mi
   #este-soy-yo .container {
     text-align: center;
     padding: 200px 12px; }
@@ -111,6 +112,7 @@
                     margin: 30px;
                     border-radius: 15px; }
 }
+//Cartas
   .cartas:first-child {
     background-image: url("/media/mi-escuela.jpg"); }
   
@@ -140,7 +142,7 @@
     h2 {
         font-size: 9vw; }
 }
-  
+  //Pie de Pagina
   footer {
     background-color: #e6e6e6;
     p {
@@ -154,7 +156,7 @@
             align-items: flex-end; }
 }
   
-  
+  //CartasN2
   #sobre-mi .cartas-2 {
     background-position: center center;
     background-size: cover;
@@ -170,6 +172,7 @@
   
   .cartas-2:nth-child(3) {
     background-image: url("media/debate-en-clase.jpeg"); }
+   //CartasN3
     #sobre-mi .cartas-3 {
       background-position: center center;
       background-size: cover;
@@ -191,7 +194,7 @@
         padding: 150px 0px;
         margin: 30px;
         border-radius: 15px; }
-      
+      //CartasN4
       .cartas-4:first-child {
         background-image: url("media/progamador.jpeg"); }
       
@@ -200,7 +203,9 @@
       
       .cartas-4:nth-child(3) {
         background-image: url("media/familia-unida.jpeg"); }
-  @media (min-width: 720px) {
+  
+        //Desktop View
+        @media (min-width: 720px) {
     header {
       position: fixed;
       width: 100%; 
@@ -212,10 +217,11 @@
             padding-bottom: 0;
             padding-right: 12px; }
     }
-    
+    //Inicio
     #hero h1 {
       font-size: 5em; }
-    #este-soy-yo .container {
+    //Breve descripcion de mi
+      #este-soy-yo .container {
       display: flex;
       justify-content: space-evenly; }
     #este-soy-yo .texto {
@@ -242,7 +248,8 @@
       margin-bottom: 30px; }
     #sobre-mi h3 {
       margin-top: 0; }
-    #sobre-mi .cartas {
+    //Cartas
+      #sobre-mi .cartas {
       padding: 50px;
       background-size: 100% 150px;
       background-repeat: no-repeat;
@@ -255,7 +262,8 @@
       background-image: url("/media/futbol-cortada.jpeg"); }
     .cartas:nth-child(3) {
       background-image: url("/media/misiones-cortada.jpeg"); }
-    #logros {
+    //Caracteristicas
+      #logros {
       background-repeat: no-repeat;
       background-size: 300px 200px;
       background-position: calc(100vh - 100px) 120px; 
@@ -264,7 +272,7 @@
         ul {
             margin-left: 100px; }
     }
-    
+    //CartasN2
     #sobre-mi .cartas-2 {
       padding: 50px;
       background-size: 100% 150px;
@@ -285,6 +293,7 @@
       height: 500px;
       width: 400px; } 
     }
+    //CartasN3
     #sobre-mi .cartas-3 {
       padding: 50px;
     background-size: 100% 150px;
@@ -304,6 +313,7 @@
       background-position: center center;
       height: 500px;
       width: 400px; } 
+      //CartasN4
       #sobre-mi .cartas-4 {
         padding: 50px;
       background-size: 100% 150px;
