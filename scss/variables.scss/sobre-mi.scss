@@ -1,0 +1,64 @@
+//Mobile View
+
+
+//CartasN2
+#sobre-mi .cartas-2 {
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    margin: 30px;
+    border-radius: 15px; }
+    //CartasN3
+    #sobre-mi .cartas-3 {
+        background-position: center center;
+        background-size: cover;
+        padding: 150px 0px;
+        margin: 30px;
+        border-radius: 15px; }
+//Desktop View
+
+@media (min-width: 720px) {
+
+  #sobre-mi .sobremi {
+        display: flex;
+        justify-content: center; }
+        
+        #sobre-mi p {
+          display: block;
+          margin-bottom: 30px; }
+          
+          #sobre-mi h3 {
+            margin-top: 0; }
+            //Cartas
+            #sobre-mi .cartas {
+              padding: 50px;
+              background-size: 100% 150px;
+              background-repeat: no-repeat;
+              background-position-y: 0;
+              background-color: rgba(50, 50, 50, 0.5);
+              box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); }
+              //CartasN2
+              #sobre-mi .cartas-2 {
+                padding: 50px;
+                background-size: 100% 150px;
+                background-repeat: no-repeat;
+                background-position-y: 0;
+                background-color: rgba(50, 50, 50, 0.5);
+                box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); }
+                //CartasN3
+                #sobre-mi .cartas-3 {
+                  padding: 50px;
+                  background-size: 100% 150px;
+                  background-repeat: no-repeat;
+                  background-position-y: 0;
+                  background-color: rgba(50, 50, 50, 0.5);
+                  box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); }
+                  //CartasN4
+                  #sobre-mi .cartas-4 {
+                    padding: 50px;
+                    background-size: 100% 150px;
+                    background-repeat: no-repeat;
+      background-position-y: 0;
+      background-color: rgba(50, 50, 50, 0.5);
+      box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.5); }
+  }

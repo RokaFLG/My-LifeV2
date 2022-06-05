@@ -1,0 +1,15 @@
+//Mobile View
+
+//Cartas
+#gracias-por-ver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    height: 80vh; 
+    h2 {
+        font-size: 9vw; }
+}

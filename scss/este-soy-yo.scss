@@ -1,0 +1,53 @@
+//Mobile View
+
+
+//Breve Descripcion de mi
+#este-soy-yo .container {
+    text-align: center;
+    padding: 200px 12px; }
+    
+    //Desktop View
+    @media (min-width: 720px){ 
+      #este-soy-yo .container {
+        display: flex;
+      justify-content: space-evenly; }
+      #este-soy-yo .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        #este-soy-yo h2 {
+          margin-top: 0px; }
+          //Cartas
+        #este-soy-yo .img-container {
+          background-image: url("/media/yo.jpeg");
+          background-size: cover;
+          background-position: center center;
+          height: 500px;
+          width: 400px; }
+          //CartasN2
+          #este-soy-yo .img-container-2 {
+            background-image: url("/media/gustos.png");
+            background-size: cover;
+            background-position: center center;
+            height: 500px;
+            width: 400px; } 
+            //CartasN3
+            #este-soy-yo .img-container-3 {
+              background-image: url("media/familia.jpeg");
+              background-size: cover;
+              background-position: center center;
+              height: 500px;
+              width: 400px; } 
+              //CartasN4
+              #este-soy-yo .img-container-4 {
+                background-image: url("media/ambicion.jpeg");
+                background-size: cover;
+                background-position: center center;
+                height: 500px;
+                width: 400px; } 
+              }
+                

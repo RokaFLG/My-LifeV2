@@ -1,0 +1,19 @@
+//Mobile View
+
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 200vh;
+    background-image: url("/media/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    h1 {
+      @extend #hero;
+        color: black; }
+      
+}
